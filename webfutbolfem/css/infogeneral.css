@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#infogen section#inf1 img{
+    width: 70%;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#infogen section#inf1 p{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+
+#infogen section#inf1 {
+    margin-top: 4em;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 45%;
+    border: 2px solid black;
+}
+
+#infogen section#inf2 img{
+    width: 70%;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#infogen section#inf2 p{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+
+#infogen section#inf2 {
+    margin-left: 56em;
+    margin-top: 2em;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+footer {
+    margin-top: 7em;
+}

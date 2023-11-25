@@ -7,13 +7,18 @@
         <meta name="description" content="Futbol femeni web">
         <meta name="keywords" content="disseny de pagines web, pag web futbol femeni, web, desenvolupament web">
         <meta name="author" content="Gerard">
-        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/index.css">
         <link rel="shortcut icon" href="./img/IBE.MC-a357ed2a.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/f2dbf97883.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
-            <img src="../img/iberdrola.png" alt="iberdrola">
+        <header>  
             <nav>
+                <div class="containerImg">
+                    <a href="./index.html"><img id="logoLliga" src="./img/logoIberdrola.png" alt="iberdrola"></a>
+                </div>
+                
                 <ul id="htopnav">
                     <li><a href="./web/classif.html">Classificació</a></li>
                     <li><a href="./web/resultats.html">Resultats</a></li>
@@ -26,30 +31,38 @@
             <div id="equip-futbol">
                 <img src="./img/584ad291b519ea740933a8ba.png" alt="sevilla">
                 <ul id="nav">
-                    <li><a href="./web/infogeneral.html">Info General</a></li>
-                    <li><a href="./web/planter.html">Planter</a></li>
+                    <li class="fa-solid fa-minus"><a href="./web/infogeneral.html">INFO GENERAL</a></li>
+                    <li class="fa-solid fa-minus"><a href="./web/planter.html">PLANTER</a></li>
                 </ul>
             </div>
 
-            <div id="noticies">
-                <div class="ultimes-noticies-iberdrola">
-                    <h2>El Barça aplasta al Real Madrid con una 'manita' para proclamarse campeonas de liga.</h2> 
-                    <p>Las azulgranas vuelven a reinar en España y se hacen con el título de la Primera Iberdrola sin perder ningún partido.</p>
+            <div id="row">
+                <div class="item item-1">
+                    <div class="container container-1">
+                        <h2>El Barça aplasta al Real Madrid con una 'manita' para proclamarse campeonas de liga.</h2> 
+                        <p>Las azulgranas vuelven a reinar en España y se hacen con el título de la Primera Iberdrola sin perder ningún partido.</p>
+                    </div>
                 </div>
 
-                <div class="ultimes-noticies-iberdrola">
-                    <h2>Ayuda histórica para el fútbol femenino: el CSD concede 16 millones de euros a los clubes</h2> 
-                    <p>El Gobierno concede parte de los fondos otorgados por la Unión Europea a los equipos para mejorar sus instalaciones.</p>
+                <div class="item item-2">
+                    <div class="container container-2">
+                        <h2>Ayuda histórica para el fútbol femenino: el CSD concede 16 millones de euros a los clubes</h2> 
+                        <p>El Gobierno concede parte de los fondos otorgados por la Unión Europea a los equipos para mejorar sus instalaciones.</p>
+                    </div>
                 </div>
 
-                <div class="ultimes-noticies-iberdrola">
-                    <h2>Ayuda histórica para el fútbol femenino: el CSD concede 16 millones de euros a los clubes</h2> 
-                    <p>El Gobierno concede parte de los fondos otorgados por la Unión Europea a los equipos para mejorar sus instalaciones.</p>
+                <div class="item item-3">
+                    <div class="container container-3">
+                        <h2>Ignacio Galán: "Estábamos seguros que traerían a España la Copa del Mundo"</h2> 
+                        <p>El presidente de la multinacional ha felicitado a la Selección Femenina de Fútbol</p>
+                    </div>
                 </div>
 
-                <div class="ultimes-noticies-iberdrola">
-                    <h2>Un brote de 10 positivos en Covid en el Atlético femenino obliga a suspender su partido contra el Athletic</h2> 
-                    <p>La Primera Iberdrola también se ha visto afectada por el aumento exponencial de casos en esta sexta ola.</p>
+                <div class="item item-4">
+                    <div class="container container-4">
+                        <h2>Un brote de 10 positivos en Covid en el Atlético femenino obliga a suspender su partido contra el Athletic</h2> 
+                        <p>La Primera Iberdrola también se ha visto afectada por el aumento exponencial de casos en esta sexta ola.</p>
+                    </div>
                 </div>
             </div>
         </main>

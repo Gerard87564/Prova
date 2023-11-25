@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3em;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 8em;
+    margin-left: 1em;
+    margin-top: 7em;
+}
+
+.item iframe {
+    width: 34em;
+    height: 25em;
+}

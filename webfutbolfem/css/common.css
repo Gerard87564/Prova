@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/white-triangle-369b8d2d.jpg);
+    font-family: 'Abadi MT Std', sans-serif;
+}
+
+header {
+    flex: 1;
+    height: fit-content;
+    max-height: 10vh;
+    width: 100%;
+    background-color: #F2F2F2;
+    outline: 2px solid #F23D3D;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.containerImg{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#logoLliga {
+    height: 100%;
+    width: auto;
+}
+
+#logoLliga:hover {
+    transform: scale(1.1);
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+nav #htopnav {
+    flex: 3;
+    display: flex;
+}
+  
+nav ul li {
+    display: flex;
+    width: 100%;
+}
+  
+nav ul li a{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex: 1;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #F23D3D;
+}
+
+main {
+    display: flex;
+    flex: 10;
+    flex-direction: column;
+}
+
+footer {
+    flex: 1; 
+    background-color: #F2F2F2;
+    position: relative;
+    outline: 2px solid #F23D3D;
+}
+
+footer figure a img{
+    width: 4%;
+}
